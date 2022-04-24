@@ -1,0 +1,97 @@
+.middleText {
+    padding: 50px;
+    color: white;
+    margin: 50px auto;
+}
+
+    .middleText h4 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .middleText p {
+        font-size: 42px;
+        font-weight: 300;
+        width: 74%;
+        line-height: 1.2;
+    }
+
+.organizationImg { /*
+    background-image: url("../images/organization2.png");*/
+    background-size: cover;
+}
+
+.organizationImg2 {
+    background-image: url("../images/processconsultancy.png");
+    background-repeat: no-repeat;
+    height: 750px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+    .organizationImg2 .middleText h4 {
+        width: 100%;
+        font-size: 38px;
+        margin-top: 120px;
+    }
+
+.plusSlider2 {
+    position: absolute;
+    left: 47%;
+    bottom: 10% !important;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.consultancyText p {
+    color: black;
+}
+
+.middleText2 {
+    bottom: 23% !important;
+}
+
+@media only screen and (max-width: 1328px) {
+
+    .organizationImg2 .middleText h4 {
+        width: 100%;
+        font-size: 36px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .organizationImg2 .middleText h4 {
+        width: 100%;
+        font-size: 26px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 728px) {
+
+    .organizationImg2 .middleText h4 {
+        width: 100%;
+        font-size: 26px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .middleText h4 {
+        font-weight: 300;
+        width: 90%;
+        font-size: 23px;
+        text-align: justify;
+    }
+
+    .organizationImg2 .middleText h4 {
+        width: 90%;
+        font-size: 21px;
+        margin-top: 90px;
+        text-align: justify;
+    }
+}

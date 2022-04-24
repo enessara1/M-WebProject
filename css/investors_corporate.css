@@ -1,0 +1,70 @@
+.personContainer {
+    width: 90%;
+}
+
+.person {
+    height: 450px;
+    padding: 50px;
+}
+
+    .person .personHeader {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+        .person .personHeader p {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+    .person .personBody img {
+        width: 100%;
+    }
+
+    .person .personFooter {
+        height: 60px;
+        background-color: #072c50;
+        text-align: center;
+    }
+    .person .personFooter div{
+        height: 100%;
+    }
+
+        .person .personFooter p {
+            font-size: 22px;
+            height: 100%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .person .personFooter i {
+            font-size: 30px;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            color: white;
+        }
+
+.corporate1 {
+    padding-left: 200px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .corporate1 {
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .person {
+        height: 450px;
+        padding: 10px;
+    }
+}

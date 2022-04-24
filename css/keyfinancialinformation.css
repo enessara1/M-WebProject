@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.keyHeadText {
+    width:80%;
+    position: absolute;
+    top: 40%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+    .keyHeadText .p-left {
+        font-size: 50px;
+        font-weight:600;
+    }
+
+    .keyHeadText .p-left span{
+        display: flex;
+    }
+
+    .keyHeadText .p-right {
+        font-size: 15px;
+    }
+
+.keyHeader{
+    color: #E83B3B;
+}
+.keyBoxes .keyBox {
+    background-color: #F2F2F2;
+    height:200px;
+    text-align:center;
+    padding-top:10px;
+}
+
+.keyBox h4 {
+    margin-top: 20px;
+    font-size: 23px;
+    color: #072C50;
+    font-weight: 700;
+}
+
+.keyBox p {
+    margin-top:20px;
+    font-size: 15px;
+    color: #666666;
+}
+
+.reports{
+    width:100%;
+    background-size:contain;
+}
+    .reports h3{
+        margin:20px auto;
+        font-size:18px;
+        color:#fff;
+    }
+    .reports .reportBoxes {
+        margin:auto;
+        display:flex;
+        justify-content:space-around;
+    }
+
+        .reports .reportBoxes .reportsBox {
+            display:grid;
+            width: 80%;
+            margin: 10px;
+            padding:0;
+            background-color: white;
+            margin-bottom: 25px;
+        }
+
+        .reports .reportBoxes .reportsBox .finimgFirst {
+            width: 101%;
+            margin: -1px;
+            object-fit: contain;
+            z-index: 1;
+            position: relative;
+        }
+
+        .reports .reportBoxes .reportsBox .finimgSecond {
+            width:100px;
+            margin:10px;
+            z-index: 2;
+            position: absolute;
+        }
+
+.financialImg {
+}
+.financialContent {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.reportsBox:nth-child(1) .financialContent {
+    background-color: #EF4436;
+}
+.reportsBox:nth-child(2) .financialContent {
+    background-color: #3E1DA4;
+}
+.reportsBox:nth-child(3) .financialContentl {
+    background-color: #66B132;
+}
+
+    .financialContent p {
+        font-size: 15px;
+        font-weight:550;
+        margin: 5px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .financialContent span {
+        align-self: center;
+        color:#fff;
+    }
+
+.diagram{
+    width:100%;
+}
+
+.revenue {
+    color: EF4436;
+
+}
+
+.graphicDiv{
+    text-align:center;
+}
+.numberGraphic {
+    width: 60%;
+}
+
+@media only screen and (max-width: 992px) {
+    .keyBoxes .keyBox{
+        margin-top:10px;
+    }
+}

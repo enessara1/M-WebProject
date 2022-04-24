@@ -1,0 +1,842 @@
+
+.headText2 {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+    .headText2 h2 {
+        font-size: 87px;
+    }
+
+    .headText2 h5 {
+        font-size: 45px;
+    }
+
+.plusSlider {
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.headText3 {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+    .headText3 h2 {
+        font-size: 87px;
+    }
+
+    .headText3 h5 {
+        font-size: 45px;
+    }
+
+.plusSlider3 {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.headText h5 {
+    font-size: 45px;
+}
+
+.headText h4 {
+    font-size: 45px;
+}
+
+.headText h2 {
+    font-size: 87px;
+}
+
+.box {
+    height: 450px;
+}
+
+.boxHead img {
+    width: 100%;
+    height: 465px;
+}
+
+
+.boxHead .imageText {
+    position: absolute;
+    font-size: 16px;
+    left: 8%;
+    bottom: 0;
+}
+
+.imageText p {
+    font-size: 25px;
+}
+
+.imageTextmobile {
+    position: absolute;
+    top: 50%;
+    font-size: 16px;
+    left: 7%;
+}
+
+.imageText p {
+    background-color: white;
+    width: fit-content;
+}
+
+.boxFoot {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+    .boxFoot p {
+        font-size: 19px;
+    }
+
+    .boxFoot button {
+        border-radius: 25px;
+        border-style: solid;
+        height: 45px;
+        width: 170px;
+        font-size: 19px;
+        font-weight: 800;
+    }
+
+.boxHeadTxtmobile {
+    text-align: center;
+    position: absolute;
+    border-radius: 25px;
+    width: 160px;
+    height: 30px;
+    top: 2%;
+    right: 8%;
+}
+
+.boxHeadTxt {
+    text-align: center;
+    position: absolute;
+    border-radius: 25px;
+    width: 244px;
+    height: 46px;
+    top: 2%;
+    right: 8%;
+}
+
+    .boxHeadTxt p {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+.boxHeadTxt2 {
+    text-align: center;
+    position: absolute;
+    border-radius: 25px;
+    width: 244px;
+    height: 46px;
+    top: 2%;
+    right: 8%;
+}
+
+    .boxHeadTxt2 p {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+.boxHeadTxt3 {
+    text-align: center;
+    position: absolute;
+    border-radius: 25px;
+    width: 244px;
+    height: 46px;
+    top: 2%;
+    right: 8%;
+}
+
+
+    .boxHeadTxt3 p {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+.insight2 {
+    right: 0%
+}
+
+.insight3 {
+    margin-top: 1%;
+    height: 377px;
+}
+
+.insight4 {
+    right: 0%;
+    margin-top: 1%;
+    height: 377px;
+}
+
+.insight1 .insightHead {
+    z-index: 999;
+    bottom: 20%;
+    position: absolute;
+}
+
+    .insight1 .insightHead h2 {
+        font-size: 45px;
+    }
+
+    .insight1 .insightHead h4 {
+        font-size: 24px;
+    }
+
+.insight1 .insightContent {
+    padding-right: 20px;
+    z-index: 999;
+    position: absolute;
+    bottom: 2%;
+}
+
+    .insight1 .insightContent p {
+        font-size: 19px;
+        font-weight: 300;
+    }
+
+.insightHeaderLeft {
+    left: 8%;
+}
+
+@media only screen and (max-width: 1628px) {
+
+    .grid-cell-5 h1 {
+        font-size: 22px;
+    }
+
+    .grid-cell-5 h3 {
+        font-size: 16px;
+    }
+
+    .imageText p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .imageText p {
+        font-size: 16px;
+    }
+
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: -100px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .insight1 .insightHead {
+        z-index: 999;
+        bottom: 25%;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 1158px) {
+
+    .imageText p {
+        font-size: 14px;
+    }
+
+    .insight1 .insightHead {
+        z-index: 999;
+        bottom: 20%;
+        position: absolute;
+    }
+
+    .insight1 .insightContent p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media only screen and (max-width: 1128px) {
+    /*   .insightsLeft .head {
+        font-size: 18px;
+    }
+
+    .insightsRight .head {
+        font-size: 16px;
+    }*/
+
+    /*  .fourPlaced2 .box0 p {
+        text-align: left;
+        padding: 50px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        width: 50%;
+    }*/
+
+    .fourPlaced2 .box01 h1 {
+        font-size: 20px;
+    }
+
+    .headText h5 {
+        font-size: 30px;
+    }
+
+    .headText h4 {
+        font-size: 30px;
+    }
+
+    .headText h2 {
+        font-size: 60px;
+    }
+
+    .insight1 .insightHead {
+        margin-top: 190px;
+        z-index: 999;
+        position: absolute;
+    }
+
+    .insight1 .insightHead {
+        z-index: 999;
+        bottom: 25%;
+        position: absolute;
+    }
+
+    .grid-cell-5 {
+        padding: 20px;
+    }
+
+        .grid-cell-5 h1 {
+            font-size: 22px;
+        }
+
+        .grid-cell-5 h3 {
+            font-size: 16px;
+        }
+}
+
+@media only screen and (max-width: 992px) {
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+        .headText2 h2 {
+            font-size: 66px;
+        }
+
+        .headText2 h5 {
+            font-size: 40px;
+        }
+
+    .headText3 {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 550px;
+    }
+
+        .headText3 h2 {
+            font-size: 30px;
+        }
+
+        .headText3 h5 {
+            font-size: 20px;
+        }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: -100px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: -150px;
+    }
+
+        .plusSlider img {
+            width: 80%;
+        }
+
+    .plusSlider3 {
+        margin-bottom: 500px;
+    }
+
+        .plusSlider3 img {
+            width: 60%;
+        }
+
+    .imageText p {
+        font-size: 12px;
+    }
+
+    .boxHeadTxt {
+        text-align: center;
+        position: absolute;
+        border-radius: 25px;
+        width: 150px;
+        height: 36px;
+        top: 2%;
+        right: 8%;
+    }
+
+        .boxHeadTxt p {
+            color: white;
+            font-size: 11px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+    .boxHeadTxt2 {
+        text-align: center;
+        position: absolute;
+        border-radius: 25px;
+        width: 150px;
+        height: 36px;
+        top: 2%;
+        right: 8%;
+    }
+
+        .boxHeadTxt2 p {
+            color: white;
+            font-size: 11px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+    .boxHeadTxt3 {
+        text-align: center;
+        position: absolute;
+        border-radius: 25px;
+        width: 150px;
+        height: 36px;
+        top: 2%;
+        right: 8%;
+    }
+
+        .boxHeadTxt3 p {
+            color: white;
+            font-size: 11px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+}
+
+
+@media only screen and (max-width: 769px) {
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+        .headText2 h2 {
+            font-size: 30px;
+        }
+
+        .headText2 h5 {
+            font-size: 20px;
+        }
+
+    .headText3 {
+        margin-bottom: 550px;
+    }
+
+        .headText3 h2 {
+            font-size: 30px;
+        }
+
+        .headText3 h5 {
+            font-size: 20px;
+        }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: -250px;
+    }
+
+        .plusSlider img {
+            width: 60%;
+        }
+
+    .plusSlider3 {
+        margin-bottom: 500px;
+    }
+
+        .plusSlider3 img {
+            width: 60%;
+        }
+
+    .imageText p {
+        font-size: 25px;
+    }
+
+    .borderRightText h2 {
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    .borderRightText li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        list-style: none;
+        font-weight: 100;
+        margin-left: -40px;
+    }
+
+    .insightHeaderLeft {
+        left: 0%;
+    }
+
+    .insight2 {
+        right: 0 !important;
+    }
+
+    .insight4 {
+        right: 0 !important;
+    }
+
+    .insightContainer {
+        height: 500px;
+    }
+
+    .imageText p {
+        font-size: 13px;
+    }
+
+    .headText h5 {
+        font-size: 20px;
+    }
+
+    .headText h4 {
+        font-size: 20px;
+    }
+
+    .headText h2 {
+        font-size: 40px;
+    }
+
+    .box {
+        height: 450px;
+        margin-bottom: 350px;
+    }
+
+    .insight1 {
+        height: 400px;
+        margin-top: 5%;
+        position: relative;
+        z-index: 999;
+    }
+
+    .insight2 {
+        right: 0%
+    }
+
+    .insight1 .insightHead h2 {
+        font-size: 30px;
+    }
+
+    .insight1 .insightHead h4 {
+        font-size: 18px;
+    }
+
+    .insight1 .insightContent p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+
+    .insight1 .insightHead {
+        left: 10%;
+        z-index: 999;
+        bottom: 20%;
+        position: absolute;
+    }
+
+    .insight1 .insightContent {
+        left: 10%;
+        padding-right: 30px;
+        z-index: 999;
+        position: absolute;
+        bottom: 5%;
+    }
+
+    .gridBox .header {
+        color: white;
+        padding: 30px;
+        padding-top: 100px;
+    }
+
+    .services .servicesHeader h2 {
+        font-size: 35px
+    }
+}
+
+@media only screen and (max-width: 603px) {
+    .boxHeadTxt {
+        text-align: center;
+        position: absolute;
+        border-radius: 25px;
+        width: 244px;
+        height: 46px;
+        top: 2%;
+        right: 8%;
+    }
+
+        .boxHeadTxt p {
+            color: white;
+            font-size: 16px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+    .insightContainer {
+        height: 2000px;
+    }
+
+    .grid-cell-5 h1 {
+        font-size: 18px;
+    }
+
+    .grid-cell-5 h3 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 250px;
+    }
+
+        .headText2 h2 {
+            font-size: 30px;
+        }
+
+        .headText2 h5 {
+            font-size: 20px;
+        }
+
+    .headText3 {
+        margin-bottom: 550px;
+    }
+
+        .headText3 h2 {
+            font-size: 30px;
+        }
+
+        .headText3 h5 {
+            font-size: 20px;
+        }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 200px;
+    }
+
+        .plusSlider img {
+            width: 60%;
+        }
+
+    .gridContainer {
+        display: block;
+        grid-template-columns: [col1] 50% [col1] 25% [col3] 25%;
+        grid-gap: 10px;
+        grid-template-rows: [row1] 47% [row2] 47%;
+        text-align: center;
+        color: #FFF;
+    }
+
+    .grid-cell-5 {
+        padding: 20px;
+    }
+
+        .grid-cell-5 h1 {
+            font-size: 18px;
+        }
+
+        .grid-cell-5 h3 {
+            font-size: 12px;
+        }
+
+    .headText h5 {
+        font-size: 10px;
+    }
+
+    .headText h4 {
+        font-size: 10px;
+    }
+
+    .headText h2 {
+        font-size: 20px;
+    }
+
+    .boxHead .imageText {
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        top: 50%;
+    }
+
+    .gridBox .header {
+        color: white;
+        padding: 30px;
+        padding-top: 5px;
+    }
+
+    .imgGrid {
+        height: auto;
+    }
+
+    .gridDiv {
+        height: 300px;
+    }
+
+    .exploresText2 {
+        font-size: 27px;
+        line-height: 30px;
+        font-weight: 100;
+    }
+
+    .contactText p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .contactHead h2 {
+        font-size: 30px;
+    }
+
+    .contactRight {
+        height: 250px;
+        background-image: url(../images/contactRight.png);
+        background-size: cover;
+    }
+
+    .services .servicesHeader h2 {
+        font-size: 25px
+    }
+
+    .experience_ul li p {
+        margin: 0;
+        font-size: 21px;
+        font-weight: 100;
+    }
+
+    .stepLeft {
+        display: inline-grid;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        justify-items: flex-end;
+        text-align: end;
+    }
+
+    .stepRight {
+        display: inline-grid;
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        justify-items: flex-start;
+        text-align: start;
+    }
+
+    .doubleText h2 {
+        font-size: 22px;
+    }
+
+    .exploresText {
+        font-size: 31px;
+        line-height: 36px;
+        font-weight: 300;
+    }
+
+    .humanCentric {
+    }
+
+    .exploresText2 {
+        font-size: 27px;
+        line-height: 28px;
+        font-weight: 100;
+    }
+}

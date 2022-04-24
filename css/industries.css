@@ -1,0 +1,12 @@
+
+@media only screen and (max-width: 1650px) {
+    .industriesNav li a{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .industriesNav li a {
+        font-size: 12px;
+    }
+}

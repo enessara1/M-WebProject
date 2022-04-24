@@ -1,0 +1,130 @@
+.boxHead .image1 {
+    height: 465px;
+    background-image: url('../images/services1.png');
+    background-size: cover;
+}
+
+.boxHead .image2 {
+    height: 465px;
+    background-image: url('../images/services2.png');
+    background-size: cover;
+}
+
+.boxHead .image3 {
+    height: 465px;
+    background-image: url('../images/services3.png');
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .headText h2 {
+        font-size: 65px;
+    }
+
+    .headText h4 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .insightContainer {
+        width: 90%;
+    }
+    .boxHead .image1 {
+        height: 350px;
+    }
+
+    .boxHead .image2 {
+        height: 350px;
+    }
+
+    .boxHead .image3 {
+        height: 350px;
+    }
+
+    .headText {
+        position: absolute;
+        top: 20%;
+        left: -10%;
+        color: white;
+    }
+
+        .headText h2 {
+            font-size: 40px;
+        }
+
+        .headText h4 {
+            font-size: 20px;
+        }
+
+    .imageTextmobile {
+        position: absolute;
+        top: 60%;
+        font-size: 16px;
+        left: 7%;
+    }
+
+    .boxFoot p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .bir {
+        height: 500px;
+    }
+    .solutionHeader {
+        float: none;
+        text-align: center;
+        font-size: 29px;
+    }
+
+    .imageTextmobile {
+        top: 50%;
+    }
+
+    .box {
+        height: 450px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .exploresHeader2 {
+        text-align: center;
+        font-weight: 500;
+    }
+    .doubleText h2 {
+        font-size: 22px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .imageTextmobile {
+        top: 30%;
+    }
+
+    .servicesHeader h4 {
+        text-align: justify;
+    }
+
+    .headText {
+        position: absolute;
+        top: 10%;
+        left: -10%;
+        color: white;
+    }
+
+        .headText h2 {
+            font-size: 20px;
+        }
+
+        .headText h4 {
+            font-size: 10px;
+        }
+
+    .box {
+        margin-bottom: 70px;
+    }
+}

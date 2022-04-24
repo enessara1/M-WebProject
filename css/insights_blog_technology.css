@@ -1,0 +1,164 @@
+.instechBg {
+    background-image: url("../images/instechImg1.png");
+}
+
+
+.instechSection {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.leftInsights {
+    width: 60%;
+    text-align: justify;
+    margin: auto 30px;
+}
+
+    .leftInsights img {
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .leftInsights h1 {
+        margin: 50px auto;
+    }
+
+    .leftInsights p {
+        font-size: 18px;
+    }
+
+    .leftInsights h3 {
+        width: 100%;
+        background-color: darkgray;
+        height: 2px;
+        margin: 100px auto;
+    }
+
+.rightInsights {
+    width: 40%;
+}
+
+.persCard {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.persCard img{
+    width: 150px;
+    height: 150px;
+}
+
+.persInfo {
+    width: 90%;
+    margin: auto 30px;
+}
+
+.persInfo h4{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.persInfo h5 {
+    font-size: 28px;
+    color: #838383;
+    font-weight: 400;
+}
+
+.persInfo p {
+    font-size: 17px;
+    color: #a1a1a1;
+}
+
+.persCard button {
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #EF4436;
+    margin: auto;
+}
+
+.blogtechCard {
+    padding: 25px;
+    margin: auto 30px;
+    border-top: 5px solid #3E1DA4;
+    box-shadow: 0px 10px 10px 1px #00000045;
+}
+
+    .blogtechCard h3 {
+        font-size: 38px;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+.blogtechUl {
+    list-style: none;
+    padding: 0;
+}
+
+    .blogtechUl li {
+        display: flex;
+        padding: 15px;
+        border-top: 2px solid #f9f0f0;
+    }
+
+        .blogtechUl li img {
+            width: 30%;
+            min-width: 30%;
+        }
+
+    .blogtechUl li p {
+        font-size: 25px;
+        font-weight: 700;
+        margin: auto 20px;
+    }
+
+@media only screen and (max-width: 992px) {
+    .instechBg {
+        width: 100%;
+        height: 300px;
+    }
+    .instechSection {
+        margin: auto;
+        display: block;
+    }
+    .leftInsights {
+        width: 100%;
+        margin: 0;
+    }
+
+        .leftInsights h3 {
+            height: 1px;
+            margin: 30px auto;
+        }
+
+    .rightInsights {
+        width: 100%;
+        margin: 60px auto;
+    }
+
+    .persCard {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .blogtechUl li {
+        display: block;
+        padding: 0;
+    }
+
+    .blogtechUl li img{
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .blogtechUl li p {
+        margin: 20px auto;
+    }
+}

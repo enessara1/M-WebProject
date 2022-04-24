@@ -1,0 +1,76 @@
+
+.insightHeadDifferent {
+    position: absolute;
+    z-index: 9999;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+    .insightHeadDifferent h4 {
+        font-size: 30px;
+    }
+
+.insightContentDifferent {
+    position: absolute;
+    z-index: 9999;
+    margin-top: 100px;
+    margin-right: 15px;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+    .insightContentDifferent ul li {
+        font-size: 20px;
+    }
+
+@media only screen and (max-width: 1223px) {
+    .insightHeadDifferent {
+        position: absolute;
+        z-index: 9999;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+        .insightHeadDifferent h4 {
+            font-size: 24px;
+        }
+
+    .insightContentDifferent {
+        position: absolute;
+        z-index: 9999;
+        margin-top: 100px;
+        margin-right: 15px;
+        padding: 20px;
+        padding-left: 0px;
+    }
+
+        .insightContentDifferent ul li {
+            font-size: 14px;
+        }
+}
+
+@media only screen and (max-width: 523px) {
+    .insightHeadDifferent {
+        position: absolute;
+        z-index: 9999;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+        .insightHeadDifferent h4 {
+            font-size: 24px;
+        }
+
+    .insightContentDifferent {
+        position: absolute;
+        z-index: 9999;
+        margin-top: 100px;
+        margin-right: 15px;
+        padding: 20px;
+        padding-left: 0px;
+    }
+
+        .insightContentDifferent ul li {
+            font-size: 14px;
+        }
+}

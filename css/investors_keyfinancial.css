@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.keyHeadText {
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+}
+
+    .keyHeadText .p-left {
+        font-size: 50px;
+        font-weight: 600;
+        float: left;
+        padding-left: 100px;
+    }
+
+        .keyHeadText .p-left span {
+            display: flex;
+        }
+
+    .keyHeadText .p-right {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+        float: right;
+        padding-right: 100px;
+    }
+
+.keyHeader {
+    color: #E83B3B;
+}
+
+.keyBoxes {
+    display: contents;
+}
+
+    .keyBoxes .keyBox {
+        background-color: #F2F2F2;
+        height: 200px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+.keyBox h4 {
+    margin-top: 20px;
+    font-size: 23px;
+    color: #072C50;
+    font-weight: 700;
+}
+
+.keyBox p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #666666;
+}
+
+.reports {
+    width: 100%;
+    background-size: contain;
+}
+
+    .reports h3 {
+        width: 90%;
+        margin: 20px auto;
+        font-size: 29px;
+        color: #fff;
+    }
+
+    .reports .reportBoxes {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+        .reports .reportBoxes .reportsBox {
+            display: grid;
+            margin: 10px;
+            padding: 0;
+            background-color: white;
+            margin-bottom: 25px;
+        }
+
+            .reports .reportBoxes .reportsBox .finimgFirst {
+                width: 101%;
+                margin: -1px;
+                object-fit: contain;
+                z-index: 1;
+                position: relative;
+            }
+
+            .reports .reportBoxes .reportsBox .finimgSecond {
+                width: 100px;
+                margin: 10px;
+                z-index: 2;
+                position: absolute;
+            }
+
+.financialImg {
+}
+
+.financialContent {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reportsBox:nth-child(1) .financialContent {
+    background-color: #EF4436;
+}
+
+.reportsBox:nth-child(2) .financialContent {
+    background-color: #3E1DA4;
+}
+
+.reportsBox:nth-child(3) .financialContent {
+    background-color: #66B132;
+}
+
+.financialContent p {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.financialContent span {
+    align-self: center;
+    color: #fff;
+}
+
+.diagram {
+    width: 100%;
+}
+
+.revenue {
+    color: #EF4436;
+}
+
+.graphicDiv {
+    text-align: center;
+}
+
+.numberGraphic {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .keyBoxes .keyBox {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .keyHeadText {
+        display:block !important;
+        top: 100px !important;
+    }
+        .keyHeadText p-left {
+            font-size: 35px !important;
+            padding-left: 50px !important;
+        }
+
+    .custText2 {
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .keyHeadText {
+        display: flex;
+        flex-wrap: wrap;
+        top: 100px;
+    }
+
+        .keyHeadText .p-left {
+            font-weight: 600;
+            font-size: 20px;
+            padding: 0px 20px;
+        }
+
+    .reports .reportBoxes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .keyHeadText .p-left span {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .keyHeadText .p-right {
+        font-size: 17px;
+        padding-right: 20px;
+    }
+
+    .reports .reportBoxes .reportsBox {
+        margin: 20px;
+    }
+}

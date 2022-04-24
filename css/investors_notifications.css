@@ -1,0 +1,103 @@
+.docs li p {
+    display: inline;
+    font-size: 20px;
+}
+
+.docs li img {
+    margin-left: 600px;
+    width: 4%;
+}
+
+.containerNoti {
+    width: 100%;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 523px) {
+    .docs li img {
+        margin-left: 0;
+    }
+
+    .docs li {
+        display: inline;
+    }
+
+    .docs {
+        width: 100%;
+    }
+
+    .media {
+        width: 100;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .docs li img {
+        margin-left: 0;
+    }
+
+    .docs li {
+        display: inline;
+    }
+
+    .docs {
+        width: 100%;
+    }
+
+    .media {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .docs li img {
+        margin-left: 0;
+    }
+
+    .docs li {
+        display: inline;
+    }
+
+    .docs {
+        width: 100%;
+    }
+
+    .media {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .docs li img {
+        margin-left: 0;
+    }
+
+    .docs li {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .docs {
+        width: 90%;
+        margin: auto;
+    }
+
+    .media {
+        width: 100%;
+    }
+}
+
+.docs ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.docs .m-50 {
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 1360px) {
+    .docs .m-10 {
+        margin-left: 10px;
+    }
+}

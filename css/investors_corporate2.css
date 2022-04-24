@@ -1,0 +1,32 @@
+.corporate h3 {
+    font-size: 30px;
+    margin-bottom: 4%;
+}
+
+.corporate p {
+    font-size: 24px;
+    margin-bottom: 4%;
+}
+
+.corporate img {
+    width: 5%;
+}
+
+.corporate a {
+    color: #072C50 !important;
+    font-size: 18px;
+}
+
+.corporate {
+    padding-left: 200px;
+}
+
+.corporateBox {
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+    .corporate {
+        padding-left: 0px;
+    }
+}

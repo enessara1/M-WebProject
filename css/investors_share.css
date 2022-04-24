@@ -1,0 +1,39 @@
+.contact-info h2 {
+    font-weight: 600;
+    color: #072c50;
+}
+
+.contact-info i p {
+    font-size: 24px;
+}
+
+.contact-info i {
+    float: left;
+    margin-right: 20px;
+    color: #EF4436;
+}
+
+contact-info p {
+    color: #666666;
+}
+
+.contact-info img {
+    width: 150px;
+}
+
+.userInfo {
+    font-size: 35px;
+}
+
+.userImg {
+    float: left;
+}
+
+.center {
+    text-align: center;
+}
+
+    .center p {
+        text-align: left;
+        margin: 0;
+    }

@@ -1,0 +1,193 @@
+.gridContainer a{
+    color: white;
+}
+
+.box01 {
+    color: white;
+    padding-top: 8%;
+}
+
+
+
+.box0 p {
+    font-weight: 300 !important;
+    padding: 0px !important;
+    position: absolute !important;
+    top: 30% !important;
+    bottom: 0 !important;
+    left: 10% !important;
+}
+
+
+.animation .content .head {
+    top: 25%;
+    position: absolute;
+    color: white;
+    width: 65%;
+    right: 45%;
+}
+
+.animation .content .text {
+    top: 55%;
+    position: absolute;
+    color: white;
+    width: 65%;
+    right: 45%;
+}
+
+.animation .content .buttonArea {
+    padding: 30px;
+    top: 75%;
+    position: absolute;
+    left: -13%;
+}
+
+.insightsLeft {
+    background-color: #3E1DA4 !important;
+}
+
+@media only screen and (max-width: 1711px) {
+
+    .animation .content .head {
+        top: 20%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        right: 45%;
+    }
+}
+
+@media only screen and (max-width: 1204px) {
+    .animation .content .head {
+        top: 20%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        right: 45%;
+    }
+
+        .animation .content .head h1 {
+            font-size: 26px;
+        }
+
+    .animation .content .text {
+        top: 50%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        right: 45%;
+    }
+
+    .animation .content .buttonArea {
+        padding: 30px;
+        top: 70%;
+        position: absolute;
+        left: -13%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .fourPlaced2 {
+        display: none;
+    }
+
+    .animation .content .head {
+        top: 25%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        right: 45%;
+    }
+
+        .animation .content .head h1 {
+            font-size: 20px;
+        }
+
+    .animation .content .text {
+        top: 50%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        right: 45%;
+    }
+
+        .animation .content .text h3 {
+            font-size: 14px;
+        }
+
+    .animation .content .buttonArea {
+        padding: 30px;
+        top: 70%;
+        position: absolute;
+        left: -13%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .animation .content .head {
+        top: 25%;
+        position: absolute;
+        color: white;
+        width: 75%;
+        left: -13%;
+    }
+
+        .animation .content .head h1 {
+            font-size: 20px;
+        }
+
+    .animation .content .text {
+        top: 50%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        left: -13%;
+    }
+
+        .animation .content .text h3 {
+            font-size: 14px;
+        }
+
+    .animation .content .buttonArea {
+        padding: 30px;
+        top: 70%;
+        position: absolute;
+        left: -13%;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+
+    .animation .content .head {
+        top: 25%;
+        position: absolute;
+        color: white;
+        width: 75%;
+        right: 45%;
+    }
+
+        .animation .content .head h1 {
+            font-size: 16px;
+        }
+
+    .animation .content .text {
+        top: 50%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        left: -13%;
+    }
+
+        .animation .content .text h3 {
+            font-size: 10px;
+        }
+
+    .animation .content .buttonArea {
+        padding: 30px;
+        top: 75%;
+        position: absolute;
+        left: -40%;
+    }
+}

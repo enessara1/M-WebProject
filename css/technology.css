@@ -1,0 +1,371 @@
+.box01 {
+    color: white;
+    padding-top: 8%;
+}
+
+
+.box0 p {
+    font-weight: 300 !important;
+    padding: 0px !important;
+    position: absolute !important;
+    top: 30% !important;
+    bottom: 0 !important;
+    left: 10% !important;
+}
+
+
+.animation .content .head {
+    top: 20%;
+    position: absolute;
+    color: white;
+    width: 65%;
+    right: 45%;
+}
+
+    .animation .content .head h3 {
+        font-size: 30px;
+    }
+
+.animation .content .text h4 {
+    font-size: 24px;
+}
+
+.animation .content .text {
+    top: 55%;
+    position: absolute;
+    color: white;
+    width: 65%;
+    right: 45%;
+}
+
+.animation .content .buttonArea {
+    padding: 30px;
+    top: 75%;
+    position: absolute;
+    left: -13%;
+}
+
+.insightsLeft {
+    background-color: #3E1DA4 !important;
+}
+
+.experience {
+    background: url("../images/experienceBg.png");
+    background-size: cover;
+    padding: 10%;
+}
+
+.experienceimg {
+    width: 100%;
+}
+
+.experience_ul {
+    list-style: none;
+    padding: 20px;
+}
+
+    .experience_ul li {
+        color: #000;
+        background-color: #fff;
+        margin: 5px;
+        padding: 10px 20px;
+        border-left: 3px solid #706767;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .experience_ul li p {
+            margin: 0;
+            font-size: 41px;
+            font-weight: 100;
+        }
+
+        .experience_ul li i {
+            color: #66B132;
+        }
+
+.stepImages {
+    width: 50%;
+}
+
+.stepImg {
+    margin: 50px auto;
+}
+
+.stepLeft {
+    display: block;
+    padding: 100px;
+    justify-items: flex-end;
+    text-align: end;
+}
+
+    .stepLeft p {
+        font-size: 20px;
+    }
+
+.stepRight {
+    display: inline-grid;
+    padding: 100px;
+    justify-items: flex-start;
+    text-align: start;
+}
+
+    .stepRight p {
+        font-size: 20px;
+    }
+
+
+
+@media only screen and (max-width: 1831px) {
+
+    .headTechnology h3 {
+        font-size: 20px;
+    }
+
+    .headTechnology h4 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1255px) {
+    .animation .content .head h3 {
+        font-size: 26px;
+    }
+
+    .animation .content .text h4 {
+        font-size: 20px;
+    }
+
+    .stepImg {
+        margin: 50px auto;
+    }
+}
+
+@media only screen and (max-width: 1255px) {
+    .box0 p {
+        font-weight: 300 !important;
+        padding: 0px !important;
+        position: absolute !important;
+        top: 10% !important;
+        bottom: 0 !important;
+        left: 10% !important;
+    }
+
+    .box01 h1 {
+        font-size: 32px;
+    }
+
+    .animation .content .head {
+        top: 30%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        right: 45%;
+    }
+
+        .animation .content .head h3 {
+            font-size: 20px;
+        }
+
+    .animation .content .text {
+        top: 50%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        right: 45%;
+    }
+
+        .animation .content .text h4 {
+            font-size: 16px;
+        }
+
+    .animation .content .buttonArea {
+        padding: 30px;
+        top: 70%;
+        position: absolute;
+        left: -13%;
+    }
+    .technoText {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        text-align-last: center;
+    }
+
+    .stepImages {
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    .stepLeft {
+        display: contents;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .stepRight {
+        display: contents;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .explores {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .animation .content .head h3 {
+        font-size: 18px;
+    }
+
+    .animation .content .text h4 {
+        font-size: 14px;
+    }
+
+    .fourPlaced2 {
+        display: none;
+    }
+
+    .animation .content .head {
+        top: 25%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        right: 45%;
+    }
+
+        .animation .content .head h1 {
+            font-size: 20px;
+        }
+
+    .animation .content .text {
+        top: 50%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        right: 45%;
+    }
+
+        .animation .content .text h3 {
+            font-size: 14px;
+        }
+
+    .animation .content .buttonArea {
+        padding: 30px;
+        top: 70%;
+        position: absolute;
+        left: -13%;
+    }
+    .technoText1 {
+        margin-top: 200px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        text-align-last: center;
+    }
+
+    .technoText2 {
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        text-align-last: center;
+    }
+
+    .stepImages {
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    .stepLeft {
+        display: contents;
+        justify-content: center;
+        text-align: center;
+    }
+    .stepRight {
+        display: contents;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .animation .content .head {
+        top: 35%;
+        position: absolute;
+        color: white;
+        width: 75%;
+        left: -13%;
+    }
+
+        .animation .content .head h1 {
+            font-size: 20px;
+        }
+
+    .animation .content .text {
+        top: 50%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        left: -13%;
+    }
+
+        .animation .content .text h4 {
+            font-size: 14px;
+        }
+
+    .animation .content .buttonArea {
+        padding: 30px;
+        top: 70%;
+        position: absolute;
+        left: -13%;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+
+    .headTechnology h3 {
+        font-size: 12px;
+    }
+
+    .headTechnology h4 {
+        font-size: 10px;
+    }
+
+    .animation .content .head {
+        top: 30%;
+        position: absolute;
+        color: white;
+        width: 75%;
+        right: 45%;
+    }
+
+        .animation .content .head h3 {
+            font-size: 14px;
+        }
+
+    .animation .content .text {
+        top: 50%;
+        position: absolute;
+        color: white;
+        width: 65%;
+        left: -13%;
+    }
+
+        .animation .content .text h4 {
+            font-size: 9px;
+        }
+
+    .animation .content .buttonArea {
+        padding: 30px;
+        top: 75%;
+        position: absolute;
+        left: -20%;
+    }
+}

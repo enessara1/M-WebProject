@@ -1,0 +1,25 @@
+.golgelendirme {
+    box-shadow: -1px 0px 5px 3px #dee0e2;
+    border-right: 5px solid #ff0000 !important;
+    border: 1px solid #ebeaea;
+}
+
+    .golgelendirme h4 {
+        padding: 6%;
+        font-size: 24px;
+    }
+
+    .golgelendirme li {
+        padding: 2%;
+    }
+
+.golgelendirme2 {
+    box-shadow: -1px 0px 5px 3px #dee0e2;
+    border-right: 5px solid #ff0000 !important;
+    border: 1px solid #ebeaea;
+}
+
+    .golgelendirme2 h4 {
+        padding: 6%;
+        font-size: 24px;
+    }

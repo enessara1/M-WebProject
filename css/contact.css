@@ -1,0 +1,116 @@
+.contactbg img {
+    width: 100%;
+    max-height:1267px;
+
+}
+.contactbg {
+    position:absolute;
+}
+
+.contact-form {
+    width: 846px;
+    height: 933px;
+    background-color: white;
+    margin-right: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.contact-form h3 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+.contact-form p{
+    font-size:19px;
+ 
+    }
+.contact-form .butt {
+    margin-left: 4%;
+    border: 0px outset red;
+    margin-top: 3%;
+    background: #EF4436;
+    color: white;
+    font-size: 27px;
+    font-weight: 500;
+    padding: 2%;
+}
+
+    .contact-form .contact-p {
+        margin-left: 4%;
+        width: 89%;
+        margin-top: 3%;
+        line-height:1.2;
+    }
+.contact-text {
+    padding: 3%;
+}
+.contact-text p{
+ color:black;
+}
+form input,select{
+    outline:0;
+    font-size:19px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom: 2px solid black; 
+    padding: 2% 2% 1% 0;
+    margin-bottom:2%;
+}
+#contact {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+#contact .contact-w100{
+    width: 100%;
+}
+#contact .input1 {
+        padding-right: 13%;
+        margin-right: 10%;
+    }
+    #contact .input2 {
+        padding-right: 19%;
+    }
+    
+#contact .m-bottom{
+    margin-bottom:9%;
+}
+::placeholder{
+    color:black;
+}
+.contactleft {
+    margin-top: 300px;
+    margin-left: 150px;
+}
+    .contactleft img {
+        float: left;
+        width: 13%;
+        margin-right: 11%;
+    }
+.contactleft h3 {
+        float: left;
+        font-size: 25px;
+        color: white;
+    }
+    .contactleft p {
+        font-size: 19px;
+        color: white;
+        float: left;
+    }
+    .contactleft .c-left2{
+        float: left;
+        margin-top: 11%;
+        margin-bottom:11%;
+    }
+    .pl-0{
+        padding-left:0px;
+    }
+/*    .contactleft .c-left3 {
+        
+        
+    }*/
+@media only screen and (max-width: 768px) {
+    .contact-form {
+        max-width: 400px;
+        max-height: 600px;
+    }
+}

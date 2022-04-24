@@ -1,0 +1,234 @@
+.salesInfo1 {
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    /*width: 70%;*/
+    font-weight: 300;
+}
+
+.techInfo1 {
+    color: white;
+    font-size: 30px;
+    margin: 0px 19%;
+    font-weight: 300;
+}
+
+.plusImg2 {
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+
+    .plusImg2 img {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+.custList3 li {
+    background-color: #EF4436 !important;
+}
+
+.custList4 li {
+    background-color: #66B132 !important;
+}
+
+.custList5 li {
+    background-color: white !important;
+    color: black;
+}
+
+.custLeft p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.custLeft h2 {
+    font-size: 32px;
+}
+
+.exploreImg {
+    width: 180px;
+    margin-top: 60px;
+}
+
+.custImg5 {
+    background-image: url("../images/techImg2.png");
+}
+
+.techList1 {
+    margin-top: 20px;
+}
+
+    .techList1 span {
+        color: #3E1DA4;
+    }
+
+.backOfficeImg1 {
+    background-image: url("../images/backOfficeImg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    /*.backOfficeImg1 > div {
+        padding: 0 5%;
+    }*/
+
+/*.custImg5 > div {
+    padding: 0 5%;
+}*/
+
+.collection1 {
+    margin: 0 !important;
+    padding: 50px 0;
+}
+
+.socialLeft p {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.socialMediaImg {
+    background-image: url("../images/techImg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.enterpriseRight p {
+    font-size: 20px;
+}
+
+.enterpriseRight ul {
+    margin-top: 30px;
+}
+
+.enterpriseRight li {
+    font-size: 17px;
+}
+
+.contactImg {
+    width: 220px;
+    margin-top: 40px;
+}
+
+.flexibleSection4 {
+    background-color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .collection1 {
+        margin: 0 !important;
+        padding: 20px;
+    }
+
+    .custList2 li {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .plusImg2 img {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .socialLeft h1 {
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    .socialLeft p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .socialLeft div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .exploreImg {
+        margin-top: 20px;
+    }
+
+    .enterpriseRight div {
+        text-align: center;
+    }
+
+    .custLeft h2 {
+        font-size: 23px;
+        text-align: justify;
+    }
+
+    .custLeft p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .custList2 {
+        padding: 0;
+        margin: 50px 0;
+    }
+
+        .custList2 li {
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 23px;
+            align-items: center;
+        }
+
+            .custList2 li img {
+                width: 20px;
+                height: 20px;
+            }
+
+    .custSection4 h4 {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .custImg5 {
+        background-repeat: no-repeat;
+    }
+
+    .backOfficeImg1 {
+        background-repeat: no-repeat;
+    }
+
+        .backOfficeImg1 > div {
+            padding: 10px;
+        }
+
+        .custInfo1 {
+            font-size: 22px;
+            margin: 0px 20px;
+            padding: 20px 0;
+            text-align: justify;
+        }
+
+    .techInfo1 {
+        font-size: 22px;
+        margin: 0px 20px;
+        padding: 20px 0;
+        text-align: justify;
+    }
+
+    .salesInfo1 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 20px 0;
+        text-align: justify;
+    }
+
+    .plusImg2 {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .custRight{
+        padding: 0;
+    }
+}
+

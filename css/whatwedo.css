@@ -1,0 +1,286 @@
+
+.gridBox {
+    width: 100%;
+    height: 530px;
+    z-index: 99;
+}
+
+.whatwedoGrid1 {
+    background-image: url(../images/whatwedoGrid1.png);
+    background-size: cover;
+}
+
+.whatwedoGrid2 {
+    background-image: url(../images/whatwedoGrid2.png);
+    background-size: cover;
+}
+
+.whatwedoGrid3 {
+    background-image: url(../images/whatwedoGrid3.png);
+    background-size: cover;
+}
+
+.textsCX .list ul {
+    width: 90%;
+}
+
+    .textsCX .list ul li {
+        font-size: 22px;
+    }
+
+.textsCX .textCX p {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.image3 {
+    height: 820px !important;
+    max-height: 820px;
+    width: 100%;
+}
+
+.gridBox span {
+    font-weight: 700;
+}
+
+.vision-left {
+    margin: 0;
+    font-size: 29px;
+}
+
+.vision-right {
+    margin: 0;
+    font-size: 38px;
+    text-align: justify;
+}
+
+.vision-width {
+    width: 90%;
+}
+
+.services-up {
+    color: #EF4436;
+    font-size: 29px !important;
+}
+
+.services-down {
+    font-size: 45px !important;
+}
+
+.services-width {
+    width: 90%;
+}
+
+.grid-width {
+    width: 90%;
+}
+
+.grid-height {
+    max-height: 488px;
+}
+
+/*.grid-text-margin {
+    margin-top: 100px !important;
+}*/
+
+.header-top .header3 {
+    color: white;
+    padding: 30px; /*
+    padding-top: 30px;*/
+}
+
+.gridBox .header3 {
+    color: white;
+    padding: 30px;
+    padding-top: 140px;
+}
+
+.fPlaced2 {
+    display: none;
+}
+
+.contentBigMobile {
+    display: none;
+}
+
+.plusImage {
+    position: absolute;
+    left: -45px;
+    top: 30%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .textsCX .list ul li {
+        font-size: 16px;
+    }
+
+    .textsCX .textCX p {
+        font-size: 16px;
+    }
+
+
+    .image3 {
+        height: 750px !important;
+        max-height: 750px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .contentBig {
+        position: absolute;
+        color: white;
+        z-index: 99;
+        text-align: left;
+        padding: 50px;
+    }
+
+    .plusIMage {
+        position: absolute;
+        left: -16%;
+        top: 30%;
+    }
+
+    .fourPlaced2 {
+        display: none;
+    }
+
+    .fPlaced2 {
+        display: block;
+        height: 80px;
+    }
+
+        .fPlaced2 .fPlaced21 {
+            background-color: #ef4436cc;
+            height: 80px;
+            float: left;
+            width: 91%;
+        }
+
+            .fPlaced2 .fPlaced21 p {
+                text-align: left;
+                padding: 10px;
+                color: white;
+                font-size: 22px;
+                font-weight: 600;
+                width: 100%;
+            }
+
+        .fPlaced2 .fPlaced22 {
+            background-color: red;
+            height: 80px;
+            float: right;
+            padding: 10px;
+            width: 9%;
+        }
+
+            .fPlaced2 .fPlaced22 img {
+                width: 90%;
+            }
+}
+
+@media only screen and (max-width: 768px) {
+    .contentBigMobile {
+        display: flex;
+        height: 80px;
+    }
+
+        .contentBigMobile .contentBigMobile1 {
+            background-color: #29ABE2;
+            text-align: center;
+            width: 33.3%;
+            color: white;
+        }
+
+        .contentBigMobile .contentBigMobile2 {
+            background-color: #66B132;
+            text-align: center;
+            width: 33.3%;
+            color: white;
+        }
+
+        .contentBigMobile .contentBigMobile3 {
+            background-color: #072C50;
+            text-align: center;
+            width: 33.3%;
+            color: white;
+        }
+
+    .fPlaced2 .fPlaced21 p {
+        text-align: left;
+        padding: 7px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .fPlaced2 .fPlaced22 {
+        background-color: red;
+        height: 80px;
+        float: right;
+        padding: 0px;
+    }
+
+        .fPlaced2 .fPlaced22 img {
+            width: 100%;
+        }
+}
+
+@media only screen and (max-width: 523px) {
+    .contentBig {
+        position: absolute;
+        color: white;
+        z-index: 99;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .gridBox .text p {
+        font-size: 17px;
+        font-weight: 300;
+    }
+
+    .imgGrid {
+        height: auto;
+    }
+
+    .animli {
+        height: 700px;
+    }
+
+    .services-down {
+        text-align: justify;
+        font-size: 18px !important;
+    }
+
+    .fPlaced2 .fPlaced21 p {
+        text-align: left;
+        padding: 5px;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .fPlaced2 .fPlaced21 {
+        background-color: #ef4436cc;
+        height: 80px;
+        float: left;
+        width: 85%;
+    }
+
+    .fPlaced2 .fPlaced22 {
+        background-color: red;
+        height: 80px;
+        float: right;
+        padding: 0px;
+        width: 15%;
+    }
+
+        .fPlaced2 .fPlaced22 img {
+            width: 100%;
+        }
+}

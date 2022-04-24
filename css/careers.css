@@ -1,0 +1,249 @@
+.careersBg {
+    background-image: url("../images/careersImgBg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+.careersImg1{
+    padding: 30px;
+}
+
+.careersImg1 img {
+    width: 100%;
+}
+
+.careersSection1 {
+    display: grid;
+    text-align: start;
+    padding: 30px;
+}
+
+    .careersSection1 h1 {
+        font-weight: 600;
+        color: #000;
+        font-size: 55px;
+        margin-top: 35px;
+    }
+
+    .careersSection1 p {
+        color: #000;
+        font-size: 21px;
+        margin-top: 25px;
+        text-align: justify;
+    }
+
+.careersSection2 {
+    background-image: url("../images/careersImg2.png");
+    background-attachment: fixed;
+    width: 100%;
+    display: grid;
+}
+
+.careersDiv2 {
+    width: 80%;
+    justify-self: center;
+    padding: 50px 0;
+}
+    .careersDiv2 div {
+        padding: 15px;
+    }
+
+.careersDiv2 h3 {
+    padding: 15px;
+    font-size: 25px;
+    color: #EF4436;
+    font-weight: 600;
+}
+    .careersDiv2 h1 {
+        padding: 15px;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+.careersDiv2 div h4 {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.careersDiv2 div p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.careersSection3 {
+    width: 80%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+    .careersSection3 div h4:nth-child(1) {
+        font-size: 20px;
+        font-weight: 600;
+        color: #EF4436;
+        padding:0;
+    }
+
+    .careersSection3 div:nth-child(2) h4 {
+        font-size: 45px;
+        font-weight: 600;
+        color: #000;
+        margin:0;
+    }
+
+    .careersSection3 div p {
+        font-size: 17px;
+        color: #000;
+        margin-top: 30px;
+    }
+
+.careersSection4 {
+    width: 80%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.careersSection4 div {
+    padding: 10px;
+}
+
+.careersSection4 div img{
+    width: 100%;
+}
+
+    .careersSection4 div h4 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 25px;
+    }
+
+    .careersSection4 div p {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+.careersSection5 {
+    background-color: #F2F2F2;
+}
+.careersDiv5 {
+    width: 80%;
+}
+
+.careersDiv5 div h3{
+    color: #3E1DA4;
+}
+
+.careersDiv5 div h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.careersDiv5 div p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+.careers_ul {
+    list-style: none;
+    padding: 20px;
+    height: 100%;
+}
+
+    .careers_ul li a {
+        width: 100%;
+        color: #000;
+        background-color: #fff;
+        margin: 10px;
+        padding: 10px 20px;
+        border-left: 3px solid #706767;
+        display: flex;
+        align-items: center;
+    }
+        .careers_ul li a span {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .careers_ul li a span p {
+            margin: 0;
+            font-size: 25px;
+            font-weight: 100;
+            margin-left: 25px;
+        }
+
+        .careers_ul li a span i {
+            color: #EF4436;
+            font-size: 30px;
+            float: right;
+            right:0;
+        }
+
+
+@media only screen and (min-width: 993px) {
+    .careersDiv2 div {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .careersBg {
+        background-size: cover;
+        height: 300px;
+    }
+
+    .careersSection1 h1 {
+        font-weight: 600;
+        color: #000;
+        font-size: 35px;
+        margin-top: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .careersSection4{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .careersSection1 h1 {
+        font-size: 38px;
+    }
+
+    .careersSection1 p {
+        text-align: justify;
+    }
+
+    .careersDiv5 {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .careers_ul li a{
+        margin: 10px 0;
+    }
+        .careers_ul li span p {
+            margin: 0;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    .careersDiv2 {
+        width: 95%;
+    }
+        .careersSection3, .careersSection4 {
+        width: 95%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+
+    .careers_ul li {
+        display: grid;
+    }
+    }

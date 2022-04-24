@@ -1,0 +1,55 @@
+.insightBox {
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    height: 90px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+    .insightBox h2 {
+        font-size: 34px;
+        margin: 25px;
+    }
+
+    .insightBox i {
+        padding: 20px;
+    }
+
+.containerInsigths {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+    .containerInsigths .active {
+        color: #ef4436;
+    }
+
+
+.contactLeft {
+    background-color: #ef4436;
+    height: 591px;
+    float: left;
+}
+
+.contactRight {
+    background-color: #ef4436;
+    float: right;
+    height: 591px;
+}
+
+.dateInsights {
+    color: white;
+}
+
+.contact button {
+    border-radius: 30px;
+    border-style: solid;
+    height: 60px;
+    width: 200px;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    border-color: white;
+    background-color: #ffffff00;
+}
